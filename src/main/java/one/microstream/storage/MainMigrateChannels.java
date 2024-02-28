@@ -10,6 +10,7 @@ public class MainMigrateChannels
 	{		
 		final StorageConfiguration sourceConfig = EmbeddedStorageConfiguration.Builder()
 			.setChannelCount(2)
+			.setStorageDirectory("storage")
 			.createEmbeddedStorageFoundation().getConfiguration();
 		
 		final StorageConfiguration targetConfig = EmbeddedStorageConfiguration.Builder()
