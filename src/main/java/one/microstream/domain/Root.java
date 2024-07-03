@@ -4,7 +4,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-import one.microstream.reference.Lazy;
+import org.eclipse.serializer.reference.Lazy;
 
 
 public class Root

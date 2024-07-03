@@ -1,8 +1,8 @@
 package one.microstream.storage;
 
-import one.microstream.storage.embedded.configuration.types.EmbeddedStorageConfiguration;
-import one.microstream.storage.embedded.tools.storage.converter.StorageConverter;
-import one.microstream.storage.types.StorageConfiguration;
+import org.eclipse.store.storage.embedded.configuration.types.EmbeddedStorageConfiguration;
+import org.eclipse.store.storage.embedded.tools.storage.converter.StorageConverter;
+import org.eclipse.store.storage.types.StorageConfiguration;
 
 public class MainMigrateChannels
 {
